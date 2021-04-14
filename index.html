@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/layot.css" type="text/css" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="cadastro">
+        <div class="container">
+            <div class="cadastro_layot">
+                <div class="topo">        
+                    <div class="cadastro_logo">        
+                        <img src="imagens/usuario.png" height="50px">  
+                     </div>     
+                     <div class="cadastro_title" >
+                        <h2>Cadastro</h2>    
+                    </div>                            
+                </div>
+                    
+                <div class="formulario_cadastro">  
+
+                    <form action="index.html" method="get">
+                        <table width="370x">  
+                            <tr>                                           
+                                <td><label for="fname">Nome:</label></td>
+                                <td><input type="text" id="fname" name="nome" placeholder="Nome" required autofocus></td>
+                            </tr>
+                            <tr>                                           
+                                <td> <label for="lname">Sobrenome:</label></td>
+                                <td> <input type="text" id="lname" name="fnome" placeholder="Sobrenome" required></td>
+                            </tr>      
+                            <tr>                                           
+                                <td><label for="email">E-mail:</label></td>
+                                <td><input type="email" id="email" name="email" placeholder="E-mail" required></td>
+                            </tr>           
+                            <tr>                                           
+                                <td><label for="password">Senha:</label>  </td>
+                                <td><input type="password" id="password" name="password" placeholder="Senha" required></td>
+                            </tr>    
+
+                            <tr>                                                                    
+                                <td class="gender_male_right"><label for="male">Masculino:</label><input type="radio" id="male" name="gender" value="male" required></td>
+                                <td class="gender_female_right"><label for="female">Feminino:</label><input type="radio" id="female" name="gender" value="female"></td>
+                            </tr>
+                             <tr class="botao">                
+                                <td colspan="2"><button>Cadastre-se</button></td>
+                            </tr>                     
+                        </table>
+                    </form>
+                </div>
+            </div>   
+        </div>
+
+
+    </div>
+
+</body>
+</html>
